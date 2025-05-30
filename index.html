@@ -31,4 +31,46 @@
       margin: 40px auto;
       padding: 30px;
       background: white;
-      border-radius: 16
+      border-radius: 16px;
+      max-width: 700px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    .footer {
+      margin-top: 60px;
+      font-size: 0.9em;
+      color: #999;
+    }
+
+    .button {
+      margin-top: 20px;
+      padding: 12px 24px;
+      font-size: 1em;
+      border: none;
+      border-radius: 12px;
+      background: #6366f1;
+      color: white;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    .button:hover {
+      background: #4f46e5;
+    }
+  </style>
+</head>
+<body>
+  <h1>Frankbot</h1>
+  <p class="subtitle">The AI that keeps Uncle Frank's stories alive — 100 at a time</p>
+
+  <div class="story-box">
+    <h2>Coming Soon...</h2>
+    <p>Frankbot is generating tales in the background. Check back later for the ultimate Uncle Frank story.</p>
+    <button class="button" onclick="alert('Stories are still cooking 🍳')">Generate Story</button>
+  </div>
+
+  <div class="footer">
+    &copy; 2025 Frankbot AI. All tales respectfully chaotic.
+  </div>
+</body>
+</html>
